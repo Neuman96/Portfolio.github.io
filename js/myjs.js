@@ -8,7 +8,7 @@ function changeImage() {
 var image = document.getElementById("imgAbout");
 var imageSrc = image.getAttribute("src");
 
-if (imageSrc == "img/profile.jpg") {
+if (imageSrc == "img/profile.JPG") {
    image.setAttribute("src", "img/profile2.jpg")
    
 }
@@ -23,7 +23,7 @@ else if (imageSrc == "img/profile3.jpg") {
 }
 
 else {
-   image.setAttribute("src", "img/profile.jpg")
+   image.setAttribute("src", "img/profile.JPG")
 }
 
 }
