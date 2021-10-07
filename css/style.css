@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap");
+body {
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+.btnDark {
+  border-radius: 5px;
+  left: 30em;
+  position: relative;
+}
+.dark-mode {
+  background-color: #121212;
+  color: #5c42a4 !important;
+}
+.dark-mode .card-body {
+  background-color: #121212;
+}
+.dark-mode .background {
+  opacity: 0.6;
+}
+.dark-mode .row {
+  opacity: 0.6;
+}
+.dark-mode .footer {
+  opacity: 0.6;
+}
+.offset:before {
+  display: block;
+  content: "";
+  height: 6rem;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  background: rgba(0, 0, 0, 0.6) !important;
+  padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #5c42a4;
+}
+
+.nav-darkMode {
+  left: 30px;
+}
+
+#home {
+  position: relative;
+}
+
+.heading-content {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.heading-content h5 {
+  font-size: 4em;
+  font-weight: 300;
+  color: #fff;
+  font-family: monospace;
+}
+
+.heading-content h1 {
+  font-size: 5em;
+  font-weight: bolder;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading-content p {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #fff;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+/*---------------About----------------*/
+
+#about .btn {
+  border: 3px solid transparent;
+  width: 50%;
+  padding: 15px 22px;
+  background: #3a104a;
+  border-radius: 5px;
+  margin-top: 88px;
+}
+#about .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+#about .btn:hover {
+  background: #5c42a4;
+  cursor: pointer;
+}
+#about .btnSwitch {
+  border: 2px solid transparent;
+  width: 20%;
+  padding: 7px;
+  background: #3a104a;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#about p {
+  font-size: 20px;
+}
+
+/*---------------Project--------------*/
+
+#project .btn {
+  border: 2px solid transparent;
+  width: 30%;
+  padding: 7px 20px;
+  background: #3a104a;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#project .btn a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+#project .btn:hover {
+  background: #5c42a4;
+  cursor: pointer;
+}
+
+/*----------Contact---------*/
+#contact .btnSend {
+  border: 2px solid transparent;
+  width: 30%;
+  padding: 7px 20px;
+  background: #3a104a;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#contact .btnSend:hover {
+  background: #5c42a4;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*---------------Footer-----------------*/
+footer {
+  background: #5c42a4;
+}
+
+/*----------Media Query---------------*/
+@media screen and (max-width: 767px) {
+  /*---------ipads------------*/
+  .navbar {
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+  }
+  .heading-content h5 {
+    font-size: 3em;
+  }
+
+  .heading-content h1 {
+    font-size: 3em;
+  }
+
+  .heading-content p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /*---------iphones------------*/
+  .navbar {
+    letter-spacing: 0.1em;
+    padding: 7px 0;
+  }
+  .heading-content h5 {
+    font-size: 2em;
+  }
+
+  .heading-content h1 {
+    font-size: 2em;
+  }
+
+  .heading-content p {
+    font-size: 0.7em;
+  }
+
+  #contact .post-heading h3 {
+    font-size: 2em;
+  }
+}
